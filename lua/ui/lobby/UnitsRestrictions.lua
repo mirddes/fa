@@ -42,7 +42,7 @@ Expressions = {
 -- '()' Parenthesis  = (CATEGORY1 and CATEGORY2) or CATEGORY3
 
 -- NOTE the following expression were carefully defined and each used category has a purpose!
--- be careful when editing them or you may brake restriction system in FA game
+-- be careful when editing them or you may break restriction system in FA game
 
     -- excluding engineers, economy, and factories because players will not progress to higher tech levels
     T1          = "(TECH1 - (MOBILE * ENGINEER) - (STRUCTURE * FACTORY) - ECONOMIC)",
